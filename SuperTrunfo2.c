@@ -187,6 +187,7 @@ int main() {
                 printf("Densidade Populacional: %s - %.2f x %s - %.2f.\nVitória da cidade %s!\n", nome1, densidadepop1, nome2, densidadepop2, nome2);
             }
             break;
+
         case 6:
             if (pibpercapita1 == pibpercapita2){
                 printf("PIB per capita: %s e %s possuem %.2f ambas. Empate!\n", nome1, nome2, pibpercapita1);
@@ -196,6 +197,7 @@ int main() {
                 printf("PIB per capita: %s - %.2f x %s - %.2f.\nVitória da cidade %s!\n", nome1, pibpercapita1, nome2, pibpercapita2, nome2);
             }
             break;
+            
         default:
             printf("Opção inválida!");
             break;
